@@ -6,11 +6,11 @@ Log a value and its name using console.log
 
 ## Usage
 
-Supports:
+Type `clv`
+
+## Supported languages
 
 - javscript
 - typescript
 - jsx
 - tsx
-
-Type `clv`
