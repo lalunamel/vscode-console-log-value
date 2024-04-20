@@ -1,6 +1,4 @@
 {
-  "main": "./dist/extension.cjs",
-  "module": "index.ts",
   "dependencies": {
     "@types/vscode": "^1.86.0"
   },
@@ -18,7 +16,7 @@
     "build": "bun run ./scripts/build-with-esbuild.ts",
     "watch": "bun run ./scripts/watch-with-esbuild.ts",
     "vsce-package": "bun run vsce package",
-    "package": "bun run build && bun run vsce-package",
+    "package": "bun run vsce-package",
     "clean": "rm -r ./dist"
   },
   "//": "START EXTENSION ATTRIBUTES",
@@ -26,8 +24,9 @@
   "author": "lalunamel",
   "publisher": "lalunamel",
   "version": "0.0.1",
-  "description": "Log a value and it's name using console.log",
+  "description": "Log a value and its name using console.log",
   "displayName": "Console Log Value",
+  "icon": "icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/lalunamel/vscode-console-log-value"

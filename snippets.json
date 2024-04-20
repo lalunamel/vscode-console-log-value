@@ -3,6 +3,6 @@
     "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "clv",
     "body": ["console.log('${0:value}', ${0:value});"],
-    "description": "Log a value and it's name using console.log"
+    "description": "Log a value and its name using console.log"
   }
 }
