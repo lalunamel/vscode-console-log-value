@@ -6,4 +6,11 @@ Log a value and its name using console.log
 
 ## Usage
 
+Supports:
+
+- javscript
+- typescript
+- jsx
+- tsx
+
 Type `clv`
