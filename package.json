@@ -23,7 +23,7 @@
   "name": "vscode-console-log-value",
   "author": "lalunamel",
   "publisher": "lalunamel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Log a value and its name using console.log",
   "displayName": "Console Log Value",
   "icon": "icon.png",
