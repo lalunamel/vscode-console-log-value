@@ -23,22 +23,40 @@
   },
   "//": "START EXTENSION ATTRIBUTES",
   "name": "vscode-console-log-value",
+  "author": "lalunamel",
+  "publisher": "lalunamel",
   "version": "0.0.1",
-  "description": "Extension description",
-  "displayName": "Extension display name",
+  "description": "Log a value and it's name using console.log",
+  "displayName": "Console Log Value",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOURNAME"
+    "url": "https://github.com/lalunamel/vscode-console-log-value"
   },
+  "license": "MIT",
   "contributes": {
-    "commands": [
+    "snippets": [
       {
-        "command": "bun-vscode-extension.helloworld",
-        "title": "Hello World"
+        "language": "javascript",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets.json"
       }
     ]
   },
   "engines": {
     "vscode": "^1.86.0"
-  }
+  },
+  "categories": [
+    "Snippets"
+  ]
 }
